@@ -1,0 +1,32 @@
+.file-selector
+{
+
+  .subscription-status
+  {
+    text-align: left;
+
+    &.trial,
+    &.cancelled,
+    &.expired,
+    &.suspended
+    {
+      border: none;
+    }
+  }
+
+  .clear-selection
+  {
+    span {
+      position: absolute;
+      top: 8px;
+      right: 13px;
+      z-index: 3;
+      cursor: pointer;
+      width: 17px;
+      text-align: center;
+      display: block;
+      height: 17px;
+    }
+  }
+}
+
